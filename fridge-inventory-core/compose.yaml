@@ -1,9 +1,9 @@
-services:
-  postgres:
-    image: 'postgres:latest'
-    environment:
-      - 'POSTGRES_DB=fridge-db'
-      - 'POSTGRES_PASSWORD=suriya'
-      - 'POSTGRES_USER=suriya'
-    ports:
-      - '5342:5432'
+#services:
+#  postgres:
+#    image: 'postgres:latest'
+#    environment:
+#      - 'POSTGRES_DB=fridge-db'
+#      - 'POSTGRES_PASSWORD=suriya'
+#      - 'POSTGRES_USER=suriya'
+#    ports:
+#      - '5342:5432'
